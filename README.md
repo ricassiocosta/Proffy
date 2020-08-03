@@ -15,7 +15,7 @@ you can use both <strong>yarn</strong> or <strong>npm</strong>
 
 ## Contributing
 
-1. Fork it (<https://github.com/ricassiocosta/foodfy/fork>)
+1. Fork it (<https://github.com/ricassiocosta/Proffy/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
