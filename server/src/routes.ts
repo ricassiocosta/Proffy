@@ -10,5 +10,6 @@ routes.post('/classes', classesController.create)
 routes.get('/classes', classesController.index)
 
 routes.post('/connections', connectionsControllers.create)
+routes.get('/connections', connectionsControllers.index)
 
 export default routes
