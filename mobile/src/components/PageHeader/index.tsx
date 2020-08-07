@@ -6,7 +6,11 @@ import backIcon from '../../assets/images/icons/back.png'
 import logoImg from '../../assets/images/logo.png'
 import styles from './styles'
 
-function PageHeader() {
+interface PageHeaderProps {
+  title: string;
+}
+
+const PageHeader: React.FunctionComponent<PageHeaderProps> = ({ title }) => {
   function handleGoBack() {
 
   }
@@ -19,7 +23,7 @@ function PageHeader() {
         </BorderlessButton>
         <Image source={logoImg} resizeMode="contain" />
       </View>
-      <Text style={styles.title}>Proffys disponíveis</Text>
+      <Text style={styles.title}>{title}</Text>
     </View>
   )
 }
