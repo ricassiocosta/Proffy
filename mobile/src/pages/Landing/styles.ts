@@ -15,13 +15,14 @@ const styles = StyleSheet.create({
 
   title: {
     color: '#fff',
+    fontFamily: 'Poppins_400Regular',
     fontSize: 20,
     lineHeight: 30,
     marginTop: 80
   },
 
   titleBold: {
-    fontWeight: 'bold'
+    fontFamily: 'Poppins_600SemiBold'
   }
 })
 

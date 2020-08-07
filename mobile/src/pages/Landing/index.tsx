@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Image, Text } from 'react-native'
 
-import landingImg from '../../assets/landing.png'
+import landingImg from '../../assets/images/landing.png'
 
 import styles from './styles'
 
