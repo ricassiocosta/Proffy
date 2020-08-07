@@ -19,7 +19,7 @@ export default function App() {
   } else{
     return (<>
       <Landing />
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
     </>);
   }
 }
