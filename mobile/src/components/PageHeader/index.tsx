@@ -5,14 +5,17 @@ import { BorderlessButton } from 'react-native-gesture-handler'
 import backIcon from '../../assets/images/icons/back.png'
 import logoImg from '../../assets/images/logo.png'
 import styles from './styles'
+import { useNavigation } from '@react-navigation/native'
 
 interface PageHeaderProps {
   title: string;
 }
 
 const PageHeader: React.FunctionComponent<PageHeaderProps> = ({ title }) => {
-  function handleGoBack() {
+  const { navigate } = useNavigation()
 
+  function handleGoBack() {
+    navigate('Landing')
   }
 
   return (
