@@ -30,6 +30,7 @@ function TeacherList() {
     })
 
     setTeachers(response.data)
+    setIsFiltersVisible(false)
   }
 
   return (
