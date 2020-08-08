@@ -5,7 +5,7 @@ import { Feather } from '@expo/vector-icons'
 import styles from './styles'
 import PageHeader from '../../components/PageHeader'
 import TeacherItem from '../../components/TeacherItem'
-import { ScrollView, TextInput, BorderlessButton } from 'react-native-gesture-handler'
+import { ScrollView, TextInput, BorderlessButton, RectButton } from 'react-native-gesture-handler'
 
 function TeacherList() {
   const [isFiltersVisible, setIsFiltersVisible] = useState(false)
@@ -51,6 +51,9 @@ function TeacherList() {
                 />
               </View>
             </View>
+            <RectButton style={styles.submitButton}>
+              <Text style={styles.submitButtonText}>Filtrar</Text>
+            </RectButton>
           </View>
         )}
       </PageHeader>
